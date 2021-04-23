@@ -1,0 +1,36 @@
+Request method:	GET
+Request URI:	http://restapi.demoqa.com/utilities/weather/city/Hyderabad?key=value
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=value
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 29 Apr 2020 17:33:48 GMT
+Content-Type: application/json
+Content-Length: 168
+Connection: keep-alive
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: max-age=0
+Expires: Wed, 29 Apr 2020 17:33:48 GMT
+Host-Header: 192fc2e7e50945beb8231a492d6a8024
+Access-Control-Allow-Origin: *
+alt-svc: quic=":443"; ma=86400; v="43,39"
+Host-Header: 5d77dd967d63c3104bced1db0cace49c
+X-Proxy-Cache: MISS
+
+{
+    "City": "Hyderabad",
+    "Temperature": "28 Degree celsius",
+    "Humidity": "65 Percent",
+    "WeatherDescription": "scattered clouds",
+    "WindSpeed": "2.1 Km per hour",
+    "WindDirectionDegree": "190 Degree"
+}
